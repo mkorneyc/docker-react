@@ -8,3 +8,6 @@ before_install:
 
 script:
   - docker run mkorneyc/docker-react npm run test -- --coverage
+
+
+
