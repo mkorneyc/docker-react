@@ -5,7 +5,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t mkorneyc/docker-react
+  - docker build -t mkorneyc/docker-react .
 
 script:
   - docker run -e CI=true mkorneyc/docker-react npm run test
